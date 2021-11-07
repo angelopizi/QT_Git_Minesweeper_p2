@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/image"/>
+    <qresource prefix="/prefix">
+        <file>main_bg_img.jpg</file>
+        <file>easy_bg_img.jpg</file>
+        <file>medium_bg_img.png</file>
+        <file>hard_bg_img.png</file>
+    </qresource>
+</RCC>
