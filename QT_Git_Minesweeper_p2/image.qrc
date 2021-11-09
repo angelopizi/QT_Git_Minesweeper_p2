@@ -1,9 +1,28 @@
 <RCC>
-    <qresource prefix="/image"/>
+    <qresource prefix="/image">
+        <file>bomb red tile.jpg</file>
+        <file>bomb x tile.jpg</file>
+        <file>flag.png</file>
+        <file>red tile.jpg</file>
+        <file>tile1.jpg</file>
+        <file>tile2.jpg</file>
+        <file>tile3.jpg</file>
+        <file>tile4.jpg</file>
+        <file>tile5.jpg</file>
+        <file>tile6.jpg</file>
+        <file>tile7.jpg</file>
+        <file>tile8.jpg</file>
+        <file>click.jpg</file>
+        <file>easy_bg_2.jpg</file>
+    </qresource>
     <qresource prefix="/prefix">
         <file>main_bg_img.jpg</file>
         <file>easy_bg_img.jpg</file>
         <file>medium_bg_img.png</file>
         <file>hard_bg_img.png</file>
+        <file>hard_bg_2.jpg</file>
+        <file>medium_bg_2.jpg</file>
+        <file>medium_playing1.jpg</file>
+        <file>medium_playing2.jpg</file>
     </qresource>
 </RCC>

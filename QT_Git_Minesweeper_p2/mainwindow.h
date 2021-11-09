@@ -22,6 +22,14 @@ private slots:
 
     void on_pushButton_hard_clicked();
 
+    void on_pushButton_clicked();
+
+    void on_pushButton_mediplaying_clicked();
+
+    void on_pushButton_medi_die_clicked();
+
+    void on_pushButton_medi_die_2_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

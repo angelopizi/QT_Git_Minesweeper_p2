@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>852</width>
+    <height>664</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,6 +22,9 @@
       <width>791</width>
       <height>541</height>
      </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
     </property>
     <widget class="QWidget" name="main_page">
      <widget class="QLabel" name="main_bg_img">
@@ -99,14 +102,14 @@
         <x>0</x>
         <y>0</y>
         <width>791</width>
-        <height>551</height>
+        <height>541</height>
        </rect>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="image.qrc">:/prefix/easy_bg_img.jpg</pixmap>
+       <pixmap resource="image.qrc">:/image/easy_bg_2.jpg</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -127,7 +130,97 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="image.qrc">:/prefix/medium_bg_img.png</pixmap>
+       <pixmap resource="image.qrc">:/prefix/medium_bg_2.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_mediplaying">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>150</y>
+        <width>30</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_medi_die_2">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>150</y>
+        <width>30</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="medium_playing">
+     <widget class="QLabel" name="medium_playing_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>791</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="image.qrc">:/prefix/medium_playing1.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_medi_die">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>150</y>
+        <width>30</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="medium_die">
+     <widget class="QLabel" name="medium_die_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>791</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="image.qrc">:/prefix/medium_playing2.jpg</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -148,7 +241,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="image.qrc">:/prefix/hard_bg_img.png</pixmap>
+       <pixmap resource="image.qrc">:/prefix/hard_bg_2.jpg</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -162,8 +255,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>26</height>
+     <width>852</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
