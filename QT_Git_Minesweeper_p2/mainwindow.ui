@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>852</width>
-    <height>664</height>
+    <width>811</width>
+    <height>584</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -40,29 +40,13 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="image.qrc">:/prefix/main_bg_img.jpg</pixmap>
+       <pixmap resource="image.qrc">:/image/main_start.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_easy">
-      <property name="geometry">
-       <rect>
-        <x>100</x>
-        <y>390</y>
-        <width>151</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="flat">
-       <bool>true</bool>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_medium">
       <property name="geometry">
        <rect>
         <x>320</x>
@@ -78,11 +62,27 @@
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_medium">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
      <widget class="QPushButton" name="pushButton_hard">
       <property name="geometry">
        <rect>
-        <x>540</x>
-        <y>390</y>
+        <x>620</x>
+        <y>20</y>
         <width>151</width>
         <height>51</height>
        </rect>
@@ -97,6 +97,9 @@
     </widget>
     <widget class="QWidget" name="easy_page">
      <widget class="QLabel" name="easy_bg_img">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -109,1243 +112,703 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="image.qrc">:/image/easy_bg_2.jpg</pixmap>
+       <pixmap resource="image.qrc">:/image/0EASY MODE.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_mainpage_easy">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>20</y>
-        <width>75</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>main page</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="gridLayoutWidget">
-      <property name="geometry">
-       <rect>
-        <x>290</x>
-        <y>200</y>
-        <width>241</width>
-        <height>221</height>
-       </rect>
-      </property>
-      <layout class="QGridLayout" name="gridLayout">
-       <property name="sizeConstraint">
-        <enum>QLayout::SetNoConstraint</enum>
-       </property>
-       <property name="spacing">
-        <number>0</number>
-       </property>
-       <item row="2" column="0">
-        <widget class="QPushButton" name="pushButton_3">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="QPushButton" name="pushButton_5">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="6">
-        <widget class="QPushButton" name="pushButton_28">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="8">
-        <widget class="QPushButton" name="pushButton_17">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="5">
-        <widget class="QPushButton" name="pushButton_47">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="8">
-        <widget class="QPushButton" name="pushButton_64">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="0">
-        <widget class="QPushButton" name="pushButton_9">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="1">
-        <widget class="QPushButton" name="pushButton_49">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="2">
-        <widget class="QPushButton" name="pushButton_37">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="5">
-        <widget class="QPushButton" name="pushButton_40">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="0">
-        <widget class="QPushButton" name="pushButton_8">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="7">
-        <widget class="QPushButton" name="pushButton_69">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="2">
-        <widget class="QPushButton" name="pushButton_68">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="7">
-        <widget class="QPushButton" name="pushButton_23">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="4">
-        <widget class="QPushButton" name="pushButton_75">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="4">
-        <widget class="QPushButton" name="pushButton_53">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="8">
-        <widget class="QPushButton" name="pushButton_34">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="0">
-        <widget class="QPushButton" name="pushButton_6">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="1">
-        <widget class="QPushButton" name="pushButton_41">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="6">
-        <widget class="QPushButton" name="pushButton_67">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="4">
-        <widget class="QPushButton" name="pushButton_70">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <widget class="QPushButton" name="pushButton_33">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="3">
-        <widget class="QPushButton" name="pushButton_63">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="1">
-        <widget class="QPushButton" name="pushButton_81">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="6">
-        <widget class="QPushButton" name="pushButton_46">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QPushButton" name="pushButton_10">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="5">
-        <widget class="QPushButton" name="pushButton_61">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="2">
-        <widget class="QPushButton" name="pushButton_11">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="2">
-        <widget class="QPushButton" name="pushButton_42">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QPushButton" name="pushButton_25">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="2">
-        <widget class="QPushButton" name="pushButton_62">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="3">
-        <widget class="QPushButton" name="pushButton_12">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="2">
-        <widget class="QPushButton" name="pushButton_51">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="2">
-        <widget class="QPushButton" name="pushButton_80">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="4">
-        <widget class="QPushButton" name="pushButton_29">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="8">
-        <widget class="QPushButton" name="pushButton_54">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="7">
-        <widget class="QPushButton" name="pushButton_77">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="7">
-        <widget class="QPushButton" name="pushButton_27">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="3">
-        <widget class="QPushButton" name="pushButton_76">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="3">
-        <widget class="QPushButton" name="pushButton_72">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="QPushButton" name="pushButton_4">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="0">
-        <widget class="QPushButton" name="pushButton">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="1">
-        <widget class="QPushButton" name="pushButton_57">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="8">
-        <widget class="QPushButton" name="pushButton_71">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="8">
-        <widget class="QPushButton" name="pushButton_78">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="4">
-        <widget class="QPushButton" name="pushButton_21">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="1">
-        <widget class="QPushButton" name="pushButton_65">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="7">
-        <widget class="QPushButton" name="pushButton_44">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QPushButton" name="pushButton_7">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="5">
-        <widget class="QPushButton" name="pushButton_19">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="7">
-        <widget class="QPushButton" name="pushButton_58">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="7">
-        <widget class="QPushButton" name="pushButton_38">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="8">
-        <widget class="QPushButton" name="pushButton_26">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="6">
-        <widget class="QPushButton" name="pushButton_79">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="2">
-        <widget class="QPushButton" name="pushButton_20">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="4">
-        <widget class="QPushButton" name="pushButton_43">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="5">
-        <widget class="QPushButton" name="DIE">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="5">
-        <widget class="QPushButton" name="pushButton_74">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QPushButton" name="pushButton_2">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="3">
-        <widget class="QPushButton" name="pushButton_31">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="5">
-        <widget class="QPushButton" name="pushButton_55">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="8">
-        <widget class="QPushButton" name="pushButton_24">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="8">
-        <widget class="QPushButton" name="pushButton_45">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="3">
-        <widget class="QPushButton" name="pushButton_22">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="7">
-        <widget class="QPushButton" name="pushButton_15">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="4">
-        <widget class="QPushButton" name="pushButton_60">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="7">
-        <widget class="QPushButton" name="pushButton_50">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="4">
-        <widget class="QPushButton" name="pushButton_39">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="6">
-        <widget class="QPushButton" name="pushButton_59">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="3">
-        <widget class="QPushButton" name="pushButton_48">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="6">
-        <widget class="QPushButton" name="pushButton_18">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="2">
-        <widget class="QPushButton" name="pushButton_30">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="6">
-        <widget class="QPushButton" name="pushButton_35">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="3">
-        <widget class="QPushButton" name="pushButton_52">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="3">
-        <widget class="QPushButton" name="pushButton_36">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="5">
-        <widget class="QPushButton" name="pushButton_66">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="1">
-        <widget class="QPushButton" name="pushButton_73">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="4">
-        <widget class="QPushButton" name="pushButton_13">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="6">
-        <widget class="QPushButton" name="pushButton_56">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="5">
-        <widget class="QPushButton" name="pushButton_14">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="6">
-        <widget class="QPushButton" name="pushButton_16">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-      </layout>
-      <zorder>pushButton_28</zorder>
-      <zorder>pushButton_18</zorder>
-      <zorder>pushButton_70</zorder>
-      <zorder>pushButton_52</zorder>
-      <zorder>pushButton_47</zorder>
-      <zorder>pushButton_24</zorder>
-      <zorder>pushButton_56</zorder>
-      <zorder>pushButton_63</zorder>
-      <zorder>pushButton_72</zorder>
-      <zorder>pushButton_37</zorder>
-      <zorder>pushButton_20</zorder>
-      <zorder>pushButton_71</zorder>
-      <zorder>pushButton_80</zorder>
-      <zorder>pushButton_60</zorder>
-      <zorder>pushButton_77</zorder>
-      <zorder>pushButton_43</zorder>
-      <zorder>pushButton_45</zorder>
-      <zorder>pushButton_74</zorder>
-      <zorder>pushButton_49</zorder>
-      <zorder>pushButton_26</zorder>
-      <zorder>pushButton_23</zorder>
-      <zorder>pushButton_64</zorder>
-      <zorder>pushButton_33</zorder>
-      <zorder>pushButton_44</zorder>
-      <zorder>pushButton_68</zorder>
-      <zorder>pushButton_65</zorder>
-      <zorder>pushButton_6</zorder>
-      <zorder>pushButton_73</zorder>
-      <zorder>pushButton_5</zorder>
-      <zorder>pushButton_38</zorder>
-      <zorder>pushButton_13</zorder>
-      <zorder>pushButton_8</zorder>
-      <zorder>pushButton_67</zorder>
-      <zorder>pushButton_50</zorder>
-      <zorder>pushButton_36</zorder>
-      <zorder>pushButton_16</zorder>
-      <zorder>pushButton_59</zorder>
-      <zorder>pushButton_7</zorder>
-      <zorder>pushButton_55</zorder>
-      <zorder>pushButton_17</zorder>
-      <zorder>pushButton_51</zorder>
-      <zorder>pushButton_19</zorder>
-      <zorder>pushButton_61</zorder>
-      <zorder>pushButton_21</zorder>
-      <zorder>pushButton_15</zorder>
-      <zorder>pushButton_78</zorder>
-      <zorder>pushButton_76</zorder>
-      <zorder>pushButton_57</zorder>
-      <zorder>pushButton_31</zorder>
-      <zorder>pushButton_54</zorder>
-      <zorder>pushButton_25</zorder>
-      <zorder>pushButton_29</zorder>
-      <zorder>pushButton_2</zorder>
-      <zorder>pushButton_40</zorder>
-      <zorder>pushButton_10</zorder>
-      <zorder>pushButton_14</zorder>
-      <zorder>pushButton_46</zorder>
-      <zorder>pushButton_62</zorder>
-      <zorder>pushButton_41</zorder>
-      <zorder>pushButton_3</zorder>
-      <zorder>pushButton_4</zorder>
-      <zorder>pushButton_75</zorder>
-      <zorder>pushButton_27</zorder>
-      <zorder>pushButton_79</zorder>
-      <zorder>pushButton_58</zorder>
-      <zorder>pushButton_22</zorder>
-      <zorder>pushButton_34</zorder>
-      <zorder>pushButton_12</zorder>
-      <zorder>pushButton_53</zorder>
-      <zorder>pushButton_81</zorder>
-      <zorder>pushButton_11</zorder>
-      <zorder>pushButton_39</zorder>
-      <zorder>pushButton_9</zorder>
-      <zorder>pushButton_30</zorder>
-      <zorder>pushButton</zorder>
-      <zorder>pushButton_69</zorder>
-      <zorder>pushButton_42</zorder>
-      <zorder>pushButton_35</zorder>
-      <zorder>pushButton_66</zorder>
-      <zorder>pushButton_48</zorder>
-      <zorder>DIE</zorder>
-     </widget>
      <widget class="QPushButton" name="pushButton_331">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>345</x>
-        <y>275</y>
+        <x>328</x>
+        <y>273</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_912">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>504</x>
-        <y>395</y>
+        <x>487</x>
+        <y>393</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_928">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>424</x>
-        <y>323</y>
+        <x>407</x>
+        <y>321</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile2.jpg</normaloff>:/image/tile2.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_947">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>424</x>
-        <y>202</y>
+        <x>407</x>
+        <y>200</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_946">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>451</x>
-        <y>323</y>
+        <x>434</x>
+        <y>321</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile2.jpg</normaloff>:/image/tile2.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_328">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>291</x>
-        <y>371</y>
+        <x>274</x>
+        <y>369</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_898">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>345</x>
-        <y>347</y>
+        <x>328</x>
+        <y>345</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_894">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>424</x>
-        <y>347</y>
+        <x>407</x>
+        <y>345</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/bomb red tile.jpg</normaloff>:/image/bomb red tile.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_886">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>318</x>
-        <y>275</y>
+        <x>301</x>
+        <y>273</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_918">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>477</x>
-        <y>347</y>
+        <x>460</x>
+        <y>345</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/bomb red tile.jpg</normaloff>:/image/bomb red tile.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_921">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>451</x>
-        <y>395</y>
+        <x>434</x>
+        <y>393</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_897">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>318</x>
-        <y>226</y>
+        <x>301</x>
+        <y>224</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_879">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>477</x>
-        <y>371</y>
+        <x>460</x>
+        <y>369</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_914">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>318</x>
-        <y>347</y>
+        <x>301</x>
+        <y>345</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_913">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>398</x>
-        <y>226</y>
+        <x>381</x>
+        <y>224</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_927">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>371</x>
-        <y>250</y>
+        <x>354</x>
+        <y>248</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_937">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>371</x>
-        <y>299</y>
+        <x>354</x>
+        <y>297</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_910">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>318</x>
-        <y>323</y>
+        <x>301</x>
+        <y>321</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_883">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>398</x>
-        <y>323</y>
+        <x>381</x>
+        <y>321</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile2.jpg</normaloff>:/image/tile2.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_920">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>504</x>
-        <y>250</y>
+        <x>487</x>
+        <y>248</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_933">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>398</x>
-        <y>347</y>
+        <x>381</x>
+        <y>345</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/bomb red tile.jpg</normaloff>:/image/bomb red tile.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_882">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>398</x>
-        <y>395</y>
+        <x>381</x>
+        <y>393</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/bomb red tile.jpg</normaloff>:/image/bomb red tile.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_327">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>504</x>
-        <y>347</y>
+        <x>487</x>
+        <y>345</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile2.jpg</normaloff>:/image/tile2.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_915">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>477</x>
-        <y>299</y>
+        <x>460</x>
+        <y>297</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_325">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>504</x>
-        <y>202</y>
+        <x>487</x>
+        <y>200</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_925">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>424</x>
-        <y>395</y>
+        <x>407</x>
+        <y>393</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/bomb red tile.jpg</normaloff>:/image/bomb red tile.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_326">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>424</x>
-        <y>299</y>
+        <x>407</x>
+        <y>297</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_922">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>345</x>
-        <y>226</y>
+        <x>328</x>
+        <y>224</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_893">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>318</x>
-        <y>202</y>
+        <x>301</x>
+        <y>200</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_944">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>318</x>
-        <y>371</y>
+        <x>301</x>
+        <y>369</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_892">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>451</x>
-        <y>299</y>
+        <x>434</x>
+        <y>297</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_881">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>477</x>
-        <y>226</y>
+        <x>460</x>
+        <y>224</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_929">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>504</x>
-        <y>226</y>
+        <x>487</x>
+        <y>224</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/bomb red tile.jpg</normaloff>:/image/bomb red tile.jpg</iconset>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_903">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>504</x>
-        <y>323</y>
+        <x>487</x>
+        <y>321</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/bomb red tile.jpg</normaloff>:/image/bomb red tile.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_332">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>424</x>
-        <y>275</y>
+        <x>407</x>
+        <y>273</y>
         <width>27</width>
         <height>23</height>
        </rect>
@@ -1353,15 +816,19 @@
       <property name="text">
        <string/>
       </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/bomb red tile.jpg</normaloff>:/image/bomb red tile.jpg</iconset>
+      </property>
      </widget>
      <widget class="QPushButton" name="pushButton_940">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>451</x>
-        <y>275</y>
+        <x>434</x>
+        <y>273</y>
         <width>26</width>
         <height>23</height>
        </rect>
@@ -1369,15 +836,19 @@
       <property name="text">
        <string/>
       </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
+      </property>
      </widget>
      <widget class="QPushButton" name="pushButton_907">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>371</x>
-        <y>371</y>
+        <x>354</x>
+        <y>369</y>
         <width>27</width>
         <height>23</height>
        </rect>
@@ -1385,15 +856,19 @@
       <property name="text">
        <string/>
       </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile3.jpg</normaloff>:/image/tile3.jpg</iconset>
+      </property>
      </widget>
      <widget class="QPushButton" name="pushButton_924">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>424</x>
-        <y>250</y>
+        <x>407</x>
+        <y>248</y>
         <width>27</width>
         <height>24</height>
        </rect>
@@ -1403,7 +878,7 @@
       </property>
       <property name="icon">
        <iconset resource="image.qrc">
-        <normaloff>:/image/bomb.jpg</normaloff>:/image/bomb.jpg</iconset>
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
       <property name="checkable">
        <bool>false</bool>
@@ -1417,332 +892,412 @@
      </widget>
      <widget class="QPushButton" name="pushButton_943">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>424</x>
-        <y>371</y>
+        <x>407</x>
+        <y>369</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile4.jpg</normaloff>:/image/tile4.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_938">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>451</x>
-        <y>226</y>
+        <x>434</x>
+        <y>224</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_884">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>504</x>
-        <y>275</y>
+        <x>487</x>
+        <y>273</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_323">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>291</x>
-        <y>299</y>
+        <x>274</x>
+        <y>297</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_917">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>424</x>
-        <y>226</y>
+        <x>407</x>
+        <y>224</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_880">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>345</x>
-        <y>371</y>
+        <x>328</x>
+        <y>369</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_890">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>371</x>
-        <y>347</y>
+        <x>354</x>
+        <y>345</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_932">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>477</x>
-        <y>202</y>
+        <x>460</x>
+        <y>200</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_895">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>345</x>
-        <y>202</y>
+        <x>328</x>
+        <y>200</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_901">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>345</x>
-        <y>395</y>
+        <x>328</x>
+        <y>393</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_931">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>371</x>
-        <y>226</y>
+        <x>354</x>
+        <y>224</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_942">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>371</x>
-        <y>275</y>
+        <x>354</x>
+        <y>273</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_896">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>345</x>
-        <y>299</y>
+        <x>328</x>
+        <y>297</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_899">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>371</x>
-        <y>202</y>
+        <x>354</x>
+        <y>200</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_322">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>291</x>
-        <y>250</y>
+        <x>274</x>
+        <y>248</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_916">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>291</x>
-        <y>323</y>
+        <x>274</x>
+        <y>321</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_939">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>345</x>
-        <y>250</y>
+        <x>328</x>
+        <y>248</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_945">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>398</x>
-        <y>202</y>
+        <x>381</x>
+        <y>200</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_329">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>318</x>
-        <y>299</y>
+        <x>301</x>
+        <y>297</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_900">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>345</x>
-        <y>323</y>
+        <x>328</x>
+        <y>321</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_936">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>451</x>
-        <y>347</y>
+        <x>434</x>
+        <y>345</y>
         <width>26</width>
         <height>23</height>
        </rect>
@@ -1750,143 +1305,179 @@
       <property name="text">
        <string/>
       </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile2.jpg</normaloff>:/image/tile2.jpg</iconset>
+      </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_909">
+     <widget class="QPushButton" name="button_blank">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>291</x>
-        <y>202</y>
+        <x>274</x>
+        <y>200</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_904">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>477</x>
-        <y>395</y>
+        <x>460</x>
+        <y>393</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_891">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>318</x>
-        <y>395</y>
+        <x>301</x>
+        <y>393</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_888">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>398</x>
-        <y>371</y>
+        <x>381</x>
+        <y>369</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile5.jpg</normaloff>:/image/tile5.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_923">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>398</x>
-        <y>299</y>
+        <x>381</x>
+        <y>297</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_930">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>504</x>
-        <y>299</y>
+        <x>487</x>
+        <y>297</y>
         <width>26</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_906">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>371</x>
-        <y>395</y>
+        <x>354</x>
+        <y>393</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/bomb red tile.jpg</normaloff>:/image/bomb red tile.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_941">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>371</x>
-        <y>323</y>
+        <x>354</x>
+        <y>321</y>
         <width>27</width>
         <height>23</height>
        </rect>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_934">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>477</x>
-        <y>323</y>
+        <x>460</x>
+        <y>321</y>
         <width>27</width>
         <height>23</height>
        </rect>
@@ -1894,15 +1485,19 @@
       <property name="text">
        <string/>
       </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile2.jpg</normaloff>:/image/tile2.jpg</iconset>
+      </property>
      </widget>
      <widget class="QPushButton" name="pushButton_324">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>451</x>
-        <y>250</y>
+        <x>434</x>
+        <y>248</y>
         <width>26</width>
         <height>23</height>
        </rect>
@@ -1910,14 +1505,517 @@
       <property name="text">
        <string/>
       </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
+      </property>
      </widget>
      <widget class="QPushButton" name="pushButton_330">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
-        <x>451</x>
+        <x>434</x>
+        <y>200</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_919">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>273</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_889">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>301</x>
+        <y>248</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_885">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>274</x>
+        <y>393</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_878">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>274</x>
+        <y>345</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_926">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>274</x>
+        <y>224</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/click.jpg</normaloff>:/image/click.jpg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_908">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>274</x>
+        <y>273</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/bomb red tile.jpg</normaloff>:/image/bomb red tile.jpg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_935">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>381</x>
+        <y>273</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_911">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>487</x>
+        <y>369</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_905">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>248</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_902">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>381</x>
+        <y>248</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile1.jpg</normaloff>:/image/tile1.jpg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_887">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>434</x>
+        <y>369</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/tile3.jpg</normaloff>:/image/tile3.jpg</iconset>
+      </property>
+     </widget>
+     <widget class="QLabel" name="slime_die">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>120</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="image.qrc">:/image/slime 2.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="slime">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>120</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="image.qrc">:/image/slime.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pause_button">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>20</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="DIE">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>0</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="DIE2">
+      <property name="geometry">
+       <rect>
+        <x>404</x>
+        <y>274</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_55">
+      <property name="geometry">
+       <rect>
+        <x>404</x>
+        <y>322</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_52">
+      <property name="geometry">
+       <rect>
+        <x>351</x>
+        <y>322</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_43">
+      <property name="geometry">
+       <rect>
+        <x>378</x>
+        <y>298</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_33">
+      <property name="geometry">
+       <rect>
+        <x>298</x>
+        <y>250</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="geometry">
+       <rect>
+        <x>351</x>
+        <y>202</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="DIE5">
+      <property name="geometry">
+       <rect>
+        <x>378</x>
+        <y>346</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_53">
+      <property name="geometry">
+       <rect>
+        <x>378</x>
+        <y>322</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_21">
+      <property name="geometry">
+       <rect>
+        <x>378</x>
+        <y>226</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_77">
+      <property name="geometry">
+       <rect>
+        <x>457</x>
+        <y>394</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_27">
+      <property name="geometry">
+       <rect>
+        <x>457</x>
+        <y>250</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_59">
+      <property name="geometry">
+       <rect>
+        <x>431</x>
+        <y>346</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_16">
+      <property name="geometry">
+       <rect>
+        <x>431</x>
         <y>202</y>
         <width>26</width>
         <height>23</height>
@@ -1926,15 +2024,47 @@
       <property name="text">
        <string/>
       </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
      </widget>
-     <widget class="QPushButton" name="pushButton_919">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
+     <widget class="QPushButton" name="DIE4">
       <property name="geometry">
        <rect>
-        <x>477</x>
-        <y>275</y>
+        <x>484</x>
+        <y>322</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_17">
+      <property name="geometry">
+       <rect>
+        <x>484</x>
+        <y>202</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="DIE10">
+      <property name="geometry">
+       <rect>
+        <x>404</x>
+        <y>394</y>
         <width>27</width>
         <height>23</height>
        </rect>
@@ -1942,15 +2072,31 @@
       <property name="text">
        <string/>
       </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
      </widget>
-     <widget class="QPushButton" name="pushButton_889">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
+     <widget class="QPushButton" name="pushButton_71">
       <property name="geometry">
        <rect>
-        <x>318</x>
-        <y>250</y>
+        <x>484</x>
+        <y>370</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_72">
+      <property name="geometry">
+       <rect>
+        <x>351</x>
+        <y>370</y>
         <width>27</width>
         <height>23</height>
        </rect>
@@ -1958,15 +2104,15 @@
       <property name="text">
        <string/>
       </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
      </widget>
-     <widget class="QPushButton" name="pushButton_885">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
+     <widget class="QPushButton" name="DIE7">
       <property name="geometry">
        <rect>
-        <x>291</x>
-        <y>395</y>
+        <x>457</x>
+        <y>346</y>
         <width>27</width>
         <height>23</height>
        </rect>
@@ -1974,15 +2120,47 @@
       <property name="text">
        <string/>
       </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
      </widget>
-     <widget class="QPushButton" name="pushButton_878">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
+     <widget class="QPushButton" name="pushButton_20">
       <property name="geometry">
        <rect>
-        <x>291</x>
-        <y>347</y>
+        <x>325</x>
+        <y>226</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_42">
+      <property name="geometry">
+       <rect>
+        <x>325</x>
+        <y>298</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_69">
+      <property name="geometry">
+       <rect>
+        <x>457</x>
+        <y>370</y>
         <width>27</width>
         <height>23</height>
        </rect>
@@ -1990,14 +2168,334 @@
       <property name="text">
        <string/>
       </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
      </widget>
-     <widget class="QPushButton" name="pushButton_926">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
+     <widget class="QPushButton" name="pushButton_48">
       <property name="geometry">
        <rect>
-        <x>291</x>
+        <x>351</x>
+        <y>298</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_73">
+      <property name="geometry">
+       <rect>
+        <x>298</x>
+        <y>370</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="DIE6">
+      <property name="geometry">
+       <rect>
+        <x>404</x>
+        <y>346</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="DIE8">
+      <property name="geometry">
+       <rect>
+        <x>351</x>
+        <y>394</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_78">
+      <property name="geometry">
+       <rect>
+        <x>484</x>
+        <y>394</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_57">
+      <property name="geometry">
+       <rect>
+        <x>298</x>
+        <y>322</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_47">
+      <property name="geometry">
+       <rect>
+        <x>404</x>
+        <y>298</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_56">
+      <property name="geometry">
+       <rect>
+        <x>431</x>
+        <y>322</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_36">
+      <property name="geometry">
+       <rect>
+        <x>351</x>
+        <y>274</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_51">
+      <property name="geometry">
+       <rect>
+        <x>325</x>
+        <y>322</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_79">
+      <property name="geometry">
+       <rect>
+        <x>431</x>
+        <y>394</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_50">
+      <property name="geometry">
+       <rect>
+        <x>457</x>
+        <y>322</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_80">
+      <property name="geometry">
+       <rect>
+        <x>325</x>
+        <y>394</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_81">
+      <property name="geometry">
+       <rect>
+        <x>298</x>
+        <y>394</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>298</x>
+        <y>202</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>271</x>
+        <y>346</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_45">
+      <property name="geometry">
+       <rect>
+        <x>484</x>
+        <y>298</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>271</x>
+        <y>370</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_35">
+      <property name="geometry">
+       <rect>
+        <x>431</x>
+        <y>274</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_63">
+      <property name="geometry">
+       <rect>
+        <x>351</x>
+        <y>346</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_19">
+      <property name="geometry">
+       <rect>
+        <x>404</x>
         <y>226</y>
         <width>27</width>
         <height>23</height>
@@ -2006,62 +2504,14 @@
       <property name="text">
        <string/>
       </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
      </widget>
-     <widget class="QPushButton" name="pushButton_908">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
+     <widget class="QPushButton" name="pushButton_31">
       <property name="geometry">
        <rect>
-        <x>291</x>
-        <y>275</y>
-        <width>27</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_935">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
-      <property name="geometry">
-       <rect>
-        <x>398</x>
-        <y>275</y>
-        <width>26</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_911">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
-      <property name="geometry">
-       <rect>
-        <x>504</x>
-        <y>371</y>
-        <width>26</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_905">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
-      <property name="geometry">
-       <rect>
-        <x>477</x>
+        <x>351</x>
         <y>250</y>
         <width>27</width>
         <height>23</height>
@@ -2070,14 +2520,46 @@
       <property name="text">
        <string/>
       </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
      </widget>
-     <widget class="QPushButton" name="pushButton_902">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
+     <widget class="QPushButton" name="pushButton_2">
       <property name="geometry">
        <rect>
-        <x>398</x>
+        <x>271</x>
+        <y>226</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_37">
+      <property name="geometry">
+       <rect>
+        <x>325</x>
+        <y>274</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_30">
+      <property name="geometry">
+       <rect>
+        <x>325</x>
         <y>250</y>
         <width>26</width>
         <height>23</height>
@@ -2086,15 +2568,47 @@
       <property name="text">
        <string/>
       </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
      </widget>
-     <widget class="QPushButton" name="pushButton_887">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
+     <widget class="QPushButton" name="pushButton_22">
       <property name="geometry">
        <rect>
-        <x>451</x>
-        <y>371</y>
+        <x>351</x>
+        <y>226</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_14">
+      <property name="geometry">
+       <rect>
+        <x>404</x>
+        <y>202</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_64">
+      <property name="geometry">
+       <rect>
+        <x>484</x>
+        <y>346</y>
         <width>26</width>
         <height>23</height>
        </rect>
@@ -2102,15 +2616,515 @@
       <property name="text">
        <string/>
       </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="DIE9">
+      <property name="geometry">
+       <rect>
+        <x>378</x>
+        <y>394</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_68">
+      <property name="geometry">
+       <rect>
+        <x>325</x>
+        <y>370</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_44">
+      <property name="geometry">
+       <rect>
+        <x>457</x>
+        <y>298</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_41">
+      <property name="geometry">
+       <rect>
+        <x>298</x>
+        <y>274</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_28">
+      <property name="geometry">
+       <rect>
+        <x>431</x>
+        <y>250</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_29">
+      <property name="geometry">
+       <rect>
+        <x>378</x>
+        <y>250</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_1">
+      <property name="geometry">
+       <rect>
+        <x>271</x>
+        <y>202</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>271</x>
+        <y>322</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_34">
+      <property name="geometry">
+       <rect>
+        <x>484</x>
+        <y>274</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_66">
+      <property name="geometry">
+       <rect>
+        <x>404</x>
+        <y>370</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="geometry">
+       <rect>
+        <x>325</x>
+        <y>202</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>271</x>
+        <y>298</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>271</x>
+        <y>394</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushbutton_82">
+      <property name="geometry">
+       <rect>
+        <x>457</x>
+        <y>202</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="DIE1">
+      <property name="geometry">
+       <rect>
+        <x>484</x>
+        <y>226</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_38">
+      <property name="geometry">
+       <rect>
+        <x>457</x>
+        <y>274</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_49">
+      <property name="geometry">
+       <rect>
+        <x>298</x>
+        <y>298</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_26">
+      <property name="geometry">
+       <rect>
+        <x>484</x>
+        <y>250</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_46">
+      <property name="geometry">
+       <rect>
+        <x>431</x>
+        <y>298</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_67">
+      <property name="geometry">
+       <rect>
+        <x>431</x>
+        <y>370</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="DIE3">
+      <property name="geometry">
+       <rect>
+        <x>271</x>
+        <y>274</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>271</x>
+        <y>250</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="geometry">
+       <rect>
+        <x>378</x>
+        <y>202</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_25">
+      <property name="geometry">
+       <rect>
+        <x>298</x>
+        <y>226</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_39">
+      <property name="geometry">
+       <rect>
+        <x>378</x>
+        <y>274</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_65">
+      <property name="geometry">
+       <rect>
+        <x>298</x>
+        <y>346</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_18">
+      <property name="geometry">
+       <rect>
+        <x>431</x>
+        <y>226</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_24">
+      <property name="geometry">
+       <rect>
+        <x>404</x>
+        <y>250</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_23">
+      <property name="geometry">
+       <rect>
+        <x>457</x>
+        <y>226</y>
+        <width>27</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_70">
+      <property name="geometry">
+       <rect>
+        <x>378</x>
+        <y>370</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="pushButton_62">
+      <property name="geometry">
+       <rect>
+        <x>325</x>
+        <y>346</y>
+        <width>26</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
      </widget>
      <zorder>easy_bg_img</zorder>
+     <zorder>pushButton_898</zorder>
+     <zorder>button_blank</zorder>
      <zorder>pushButton_331</zorder>
      <zorder>pushButton_912</zorder>
      <zorder>pushButton_928</zorder>
      <zorder>pushButton_947</zorder>
      <zorder>pushButton_946</zorder>
      <zorder>pushButton_328</zorder>
-     <zorder>pushButton_898</zorder>
      <zorder>pushButton_894</zorder>
      <zorder>pushButton_886</zorder>
      <zorder>pushButton_918</zorder>
@@ -2163,7 +3177,6 @@
      <zorder>pushButton_329</zorder>
      <zorder>pushButton_900</zorder>
      <zorder>pushButton_936</zorder>
-     <zorder>pushButton_909</zorder>
      <zorder>pushButton_904</zorder>
      <zorder>pushButton_891</zorder>
      <zorder>pushButton_888</zorder>
@@ -2185,8 +3198,92 @@
      <zorder>pushButton_905</zorder>
      <zorder>pushButton_902</zorder>
      <zorder>pushButton_887</zorder>
-     <zorder>pushButton_mainpage_easy</zorder>
      <zorder>gridLayoutWidget</zorder>
+     <zorder>DIE2</zorder>
+     <zorder>pushButton_55</zorder>
+     <zorder>pushButton_52</zorder>
+     <zorder>pushButton_43</zorder>
+     <zorder>pushButton_33</zorder>
+     <zorder>pushButton_12</zorder>
+     <zorder>DIE5</zorder>
+     <zorder>pushButton_53</zorder>
+     <zorder>pushButton_21</zorder>
+     <zorder>pushButton_77</zorder>
+     <zorder>pushButton_27</zorder>
+     <zorder>pushButton_59</zorder>
+     <zorder>pushButton_16</zorder>
+     <zorder>DIE4</zorder>
+     <zorder>pushButton_17</zorder>
+     <zorder>DIE10</zorder>
+     <zorder>pushButton_71</zorder>
+     <zorder>pushButton_72</zorder>
+     <zorder>DIE7</zorder>
+     <zorder>pushButton_20</zorder>
+     <zorder>pushButton_42</zorder>
+     <zorder>pushButton_69</zorder>
+     <zorder>pushButton_48</zorder>
+     <zorder>pushButton_73</zorder>
+     <zorder>DIE6</zorder>
+     <zorder>DIE8</zorder>
+     <zorder>pushButton_78</zorder>
+     <zorder>pushButton_57</zorder>
+     <zorder>pushButton_47</zorder>
+     <zorder>pushButton_56</zorder>
+     <zorder>pushButton_36</zorder>
+     <zorder>pushButton_51</zorder>
+     <zorder>pushButton_79</zorder>
+     <zorder>pushButton_50</zorder>
+     <zorder>pushButton_80</zorder>
+     <zorder>pushButton_81</zorder>
+     <zorder>pushButton_10</zorder>
+     <zorder>pushButton_8</zorder>
+     <zorder>pushButton_45</zorder>
+     <zorder>pushButton_9</zorder>
+     <zorder>pushButton_35</zorder>
+     <zorder>pushButton_63</zorder>
+     <zorder>pushButton_19</zorder>
+     <zorder>pushButton_31</zorder>
+     <zorder>pushButton_2</zorder>
+     <zorder>pushButton_37</zorder>
+     <zorder>pushButton_30</zorder>
+     <zorder>pushButton_22</zorder>
+     <zorder>pushButton_14</zorder>
+     <zorder>pushButton_64</zorder>
+     <zorder>DIE9</zorder>
+     <zorder>pushButton_68</zorder>
+     <zorder>pushButton_44</zorder>
+     <zorder>pushButton_41</zorder>
+     <zorder>pushButton_28</zorder>
+     <zorder>pushButton_29</zorder>
+     <zorder>pushButton_1</zorder>
+     <zorder>pushButton_7</zorder>
+     <zorder>pushButton_34</zorder>
+     <zorder>pushButton_66</zorder>
+     <zorder>pushButton_11</zorder>
+     <zorder>pushButton_5</zorder>
+     <zorder>pushButton_6</zorder>
+     <zorder>pushbutton_82</zorder>
+     <zorder>DIE1</zorder>
+     <zorder>pushButton_38</zorder>
+     <zorder>pushButton_49</zorder>
+     <zorder>pushButton_26</zorder>
+     <zorder>pushButton_46</zorder>
+     <zorder>pushButton_67</zorder>
+     <zorder>DIE3</zorder>
+     <zorder>pushButton_3</zorder>
+     <zorder>pushButton_13</zorder>
+     <zorder>pushButton_25</zorder>
+     <zorder>pushButton_39</zorder>
+     <zorder>pushButton_65</zorder>
+     <zorder>pushButton_18</zorder>
+     <zorder>pushButton_24</zorder>
+     <zorder>pushButton_23</zorder>
+     <zorder>pushButton_70</zorder>
+     <zorder>pushButton_62</zorder>
+     <zorder>slime_die</zorder>
+     <zorder>slime</zorder>
+     <zorder>pause_button</zorder>
+     <zorder>DIE</zorder>
     </widget>
     <widget class="QWidget" name="medium">
      <widget class="QLabel" name="medium_bg_img">
@@ -5045,19 +6142,6 @@
       <zorder>pushButton_424</zorder>
       <zorder>pushButton_160</zorder>
      </widget>
-     <widget class="QPushButton" name="pushButton_mainpage_medium2">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>20</y>
-        <width>75</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>main page</string>
-      </property>
-     </widget>
     </widget>
     <widget class="QWidget" name="medium_playing">
      <widget class="QLabel" name="medium_playing_2">
@@ -7660,19 +8744,6 @@
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_mainpage_medium2_2">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>20</y>
-        <width>75</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>main page</string>
-      </property>
-     </widget>
     </widget>
     <widget class="QWidget" name="medium_die">
      <widget class="QLabel" name="medium_die_2">
@@ -7694,19 +8765,6 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_mainpage_medium2_4">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>20</y>
-        <width>75</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>main page</string>
-      </property>
-     </widget>
     </widget>
     <widget class="QWidget" name="hard_page">
      <widget class="QLabel" name="hard_bg_img">
@@ -7726,19 +8784,6 @@
       </property>
       <property name="scaledContents">
        <bool>true</bool>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_mainpage_medium2_3">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>20</y>
-        <width>75</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>main page</string>
       </property>
      </widget>
      <widget class="QWidget" name="gridLayoutWidget_4">
@@ -11603,6 +12648,59 @@
       </layout>
      </widget>
     </widget>
+    <widget class="QWidget" name="pause_page">
+     <widget class="QLabel" name="pasue_bg">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>791</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="image.qrc">:/image/pause_page.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="yes_button">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>270</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="no_button">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>270</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -11610,7 +12708,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>852</width>
+     <width>811</width>
      <height>21</height>
     </rect>
    </property>
@@ -11621,4 +12719,7 @@
   <include location="image.qrc"/>
  </resources>
  <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_2"/>
+ </buttongroups>
 </ui>

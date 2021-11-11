@@ -16,6 +16,12 @@
         <file>easy_bg_2.jpg</file>
         <file>bomb.jpg</file>
         <file>EASY MODE - pause.png</file>
+        <file>EASY MODE.png</file>
+        <file>0EASY MODE.png</file>
+        <file>slime 2.png</file>
+        <file>slime.png</file>
+        <file>main_start.png</file>
+        <file>pause_page.png</file>
     </qresource>
     <qresource prefix="/prefix">
         <file>main_bg_img.jpg</file>
