@@ -156,6 +156,16 @@ private slots:
 
     void on_pushButton_mainpage_easy_clicked();
 
+    void on_pushButton_mainpage_medium2_clicked();
+
+    void on_pushButton_mainpage_medium2_2_clicked();
+
+    void on_pushButton_mainpage_medium2_4_clicked();
+
+    void on_pushButton_mainpage_medium2_3_clicked();
+
+    void on_DIE_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

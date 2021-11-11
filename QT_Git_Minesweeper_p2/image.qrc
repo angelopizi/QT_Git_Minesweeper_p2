@@ -14,6 +14,8 @@
         <file>tile8.jpg</file>
         <file>click.jpg</file>
         <file>easy_bg_2.jpg</file>
+        <file>bomb.jpg</file>
+        <file>EASY MODE - pause.png</file>
     </qresource>
     <qresource prefix="/prefix">
         <file>main_bg_img.jpg</file>
