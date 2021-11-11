@@ -427,3 +427,9 @@ void MainWindow::on_pushButton_468_clicked()
     ui->stackedWidget->setCurrentIndex(4);
 }
 
+
+void MainWindow::on_pushButton_mainpage_easy_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(0);
+}
+

@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="main_page">
      <widget class="QLabel" name="main_bg_img">
@@ -115,6 +115,19 @@
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_mainpage_easy">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>main page</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="medium">
      <widget class="QLabel" name="medium_bg_img">
@@ -147,7 +160,7 @@
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
        <property name="sizeConstraint">
-        <enum>QLayout::SetDefaultConstraint</enum>
+        <enum>QLayout::SetNoConstraint</enum>
        </property>
        <property name="spacing">
         <number>0</number>
@@ -3000,7 +3013,7 @@
         <x>200</x>
         <y>120</y>
         <width>391</width>
-        <height>371</height>
+        <height>381</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout_5">
